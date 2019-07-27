@@ -100,6 +100,12 @@ export default {
           component: './HelloWorld',
         },
         {
+          path: '/ToMo',
+          name: 'ToMo',
+          component: './ToMo',
+          // hideInMenu: true,
+        },
+        {
           component: './404',
         },
       ],
